@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wu-Tang Clan Name Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Wu-Tang Clan Name Generator</h1>
+        <form id="nameGeneratorForm">
+            <label for="userName">Your Name:</label>
+            <input type="text" id="userName" name="userName" required><br>
+            <label for="question1">Your favorite animal:</label>
+            <input type="text" id="question1" name="question1" required><br>
+            <label for="question2">Your favorite color:</label>
+            <input type="text" id="question2" name="question2" required><br>
+            <label for="question3">Your favorite city:</label>
+            <input type="text" id="question3" name="question3" required><br>
+            <label for="question4">Your favorite season:</label>
+            <input type="text" id="question4" name="question4" required><br>
+            <label for="question5">Your favorite hobby:</label>
+            <input type="text" id="question5" name="question5" required><br>
+            <button type="submit">Generate Name</button>
+        </form>
+        <h2><span id="userGivenName"></span>...hence forth, you will be known as...</h2>
+        <p id="generatedName"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
